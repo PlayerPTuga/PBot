@@ -21,6 +21,8 @@ client = commands.Bot(command_prefix='?', intents=intents)
 
 @client.event
 async def on_ready():
+    token = input("Token")
+    client.run() = token 
     print ("The bot is ready")
 
 ####
@@ -251,5 +253,3 @@ async def minigame(ctx):
 ####
 #   Token
 ####
-
-client.run('OTM0ODA2NDUzNzE2Mzg5OTk5.Gn5p0j.czw9IhfXbg90P613nnLaKNRQRIcpWTNTXioPjk')
